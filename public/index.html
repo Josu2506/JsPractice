@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1,
+  maximum-scale=5"
+    />
+
+    <link rel="icon" href="devchallenges.png" />
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://devchallenges.io/"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Devchallenges</title>
+
+    <style>
+      .header {
+        display: flex;
+        margin: 25px 40px;
+      }
+      h3 {
+        font-family: inconsolata;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25px;
+      }
+
+      .main {
+        display: flex;
+        margin: 80px 40px;
+        gap: 20px;
+      }
+
+      .firstCard {
+        display: flex;
+        flex-grow: 1;
+      }
+
+      img {
+        width: 539px;
+        height: 447px;
+      }
+
+      .secondCard {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 80px;
+      }
+
+      .title {
+        display: flex;
+      }
+
+      h1 {
+        font-family: monospace;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 94px;
+        margin-top: 0;
+      }
+
+      .content {
+        margin-right: 150px;
+        padding-right: 150px;
+      }
+      h2 {
+        font-family: monospace;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+      }
+
+      button {
+        width: 216px;
+        height: 68px;
+        background-color: black;
+      }
+      h5 {
+        font-family: monospace;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 20px;
+        color: white;
+      }
+
+      .footer {
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 250px;
+      }
+      h4 {
+        color: #BDBDBD;
+        font-family: Montserrat;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 17px;
+      }
+
+      @media screen and (max-width: 760px) {
+        .main {
+          align-items: center;
+          flex-direction: column;
+          margin: 0 40px;
+        }
+        img {
+          width: 286px;
+          height: 238px;
+        }
+
+        .secondCard {
+          padding: unset;
+        }
+
+        h1{
+          font-size: 48px;
+          line-height: 71px;
+          margin: 0;
+        }
+        .content {
+          margin-right: unset;
+          padding-right: unset;
+        }
+
+        h2 {
+          font-size: 18px;
+          line-height: 26px;
+        }
+
+        .footer{
+          top: 100px;
+        }
+        h4 {
+          margin: 0;
+        }
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h3>404 NOT FOUND</h3>
+    </div>
+    <div class="main">
+      <div class="firstCard">
+        <img src="./assets/photos/Scarecrow.png" alt="" />
+      </div>
+
+      <div class="secondCard">
+        <div class="title">
+          <h1>I have bad news for you</h1>
+        </div>
+        <div class="content">
+          <h2>
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </h2>
+        </div>
+        <div class="button">
+          <button><h5>BACK TO HOMEPAGE</h5></button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h4>created by Josu2506 - devChallenges.io</h4>
+    </div>
+  </body>
+</html>
